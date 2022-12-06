@@ -17,6 +17,7 @@ importers:
       eslint-config-prettier: 8.1.0
       jest: 28.1.1
       jest-environment-jsdom: 28.1.1
+      my-new-tsconfigs: workspace:*
       my-tsconfigs: workspace:*
       nx: 15.3.0
       prettier: ^2.6.2
@@ -40,12 +41,16 @@ importers:
       eslint-config-prettier: 8.1.0_eslint@8.15.0
       jest: 28.1.1_6m7kcbkkzjz4ln6z66tlzx44we
       jest-environment-jsdom: 28.1.1
-      my-tsconfigs: link:packages/tsconfig-bases
+      my-new-tsconfigs: link:packages/tsconfig-bases
+      my-tsconfigs: link:packages/new-tsconfig-bases
       nx: 15.3.0
       prettier: 2.8.0
       ts-jest: 28.0.5_adbyj5tmrwpeztrcenidhzpjsa
       ts-node: 10.9.1_o3cqn7e5gjtu3y7kauu454ca2y
       typescript: 4.8.4
+
+  packages/new-tsconfig-bases:
+    specifiers: {}
 
   packages/tsconfig-bases:
     specifiers: {}
