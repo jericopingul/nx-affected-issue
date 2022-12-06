@@ -1,5 +1,5 @@
 {
-  "extends": "my-tsconfigs/base.json",
+  "extends": "my-new-tsconfigs/base.json",
   "compileOnSave": false,
   "compilerOptions": {
     "rootDir": ".",

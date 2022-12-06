@@ -22,6 +22,7 @@
     "jest": "28.1.1",
     "jest-environment-jsdom": "28.1.1",
     "my-tsconfigs": "workspace:*",
+    "my-new-tsconfigs": "workspace:*",
     "nx": "15.3.0",
     "prettier": "^2.6.2",
     "ts-jest": "28.0.5",
